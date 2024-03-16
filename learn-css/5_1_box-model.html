@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      /*  
+        Content, padding, Margin, Border 
+        */
+      div.content {
+        background-color: rgb(188, 181, 181);
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        border: 10px solid green;
+        margin: 40px;
+      }
+      span {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+      }
+      div.padding {
+        border: 1px solid black;
+        padding: 20px 10px 5px 3px;
+      }
+      div.margin {
+        border: 1px solid red;
+        margin-left: 20px 10px;
+      }
+      .shape {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+    <span>Hello CSS</span>
+    <div class="padding">
+      김치볶음밥은 한국의 대중적인 요리의 하나이자 볶음밥의 일종으로서 김치와
+      밥을 주재료로 프라이팬 등에서 볶은 요리다.[1] 조리하기 편하고 간단하여,
+      한국의 음식점인 분식점에서 대부분 팔고 있는 음식이다.[1]
+    </div>
+    <div class="margin">
+      김치볶음밥은 한국의 대중적인 요리의 하나이자 볶음밥의 일종으로서 김치와
+      밥을 주재료로 프라이팬 등에서 볶은 요리다.[1] 조리하기 편하고 간단하여,
+      한국의 음식점인 분식점에서 대부분 팔고 있는 음식이다.[1]
+    </div>
+    <div class="shape" style="margin-bottom: 40px"></div>
+    <div class="shape"></div>
+  </body>
+</html>
